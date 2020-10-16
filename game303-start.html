@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>스투스뜨-뺄셈</title>
+  <link rel="stylesheet" href="./style.css">
+  <style type="text/css">
+     @font-face {
+    font-family: 'CookieRunOTF-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  </style>
+</head>
+
+<body id="index-game-two" class="gametwo-container">
+
+  <!--남기기기기 --><div id="pagetwo" class="pageboxes">
+    <header>
+      <div class="head-left-icons">
+        <!-- 주소바꾸기이이ㅣ-->
+        <a href="https://yoondakyeong.github.io/stooses-game">
+          <img class="icon-tops" src="./game3/icon-top-left.png">
+        </a>
+      </div>
+      <div class="head-right-icons">
+        <a href="./index.html">
+          <img class="icon-tops" src="./game3/icon-top-right-one.png">
+        </a>
+        <a href="./game302-start.html">
+          <img class="icon-tops" src="./game3/icon-top-right-two.png">
+        </a>
+        <a href="./game303-start.html">
+          <img class="icon-tops" src="./game3/icon-top-right-three.png">
+        </a>
+      </div>
+    </header>
+
+  
+    <div class="twogame-wrap" id="twogameall"></div>
+    
+
+
+    <!--코드드드드-->
+    <a href="./game303-game.html" style="color: black; text-decoration: none;">
+      <div id="buttontwost">Level 3</div>
+    </a>
+
+
+
+    
+  </div>
+
+  <script type="text/javascript">
+      gametwot.onclick=function(){
+        gametwot.style.visibility='hidden';
+        gametwotes.style.visibility='visible';
+        chpatwo.style.visibility='visible';
+      }
+      gametwotes.onclick=function(){
+        gametwot.style.visibility='visible';
+        gametwotes.style.visibility='hidden';
+        chpatwo.style.visibility='hidden';
+      }
+      buttontwost.onclick=function(){
+        twogameall.style.display="block";
+        buttontwost.style.display="none";
+      }
+
+    </script>
+</body>
+</html>
